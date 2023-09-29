@@ -1,0 +1,11 @@
+Model Information:
+* title:	33'x13' Billboard
+* source:	https://sketchfab.com/3d-models/33x13-billboard-7012770bacdd4df991958eb33a8e24d4
+* author:	Cregan Max (https://sketchfab.com/creativeganad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "33'x13' Billboard" (https://sketchfab.com/3d-models/33x13-billboard-7012770bacdd4df991958eb33a8e24d4) by Cregan Max (https://sketchfab.com/creativeganad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

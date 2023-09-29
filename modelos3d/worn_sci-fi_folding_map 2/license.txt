@@ -1,0 +1,11 @@
+Model Information:
+* title:	Worn Sci-Fi Folding Map
+* source:	https://sketchfab.com/3d-models/worn-sci-fi-folding-map-cbae3c8fa2614323a642fdef73db5865
+* author:	Kami Rapacz (https://sketchfab.com/kuroderuta)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Worn Sci-Fi Folding Map" (https://sketchfab.com/3d-models/worn-sci-fi-folding-map-cbae3c8fa2614323a642fdef73db5865) by Kami Rapacz (https://sketchfab.com/kuroderuta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

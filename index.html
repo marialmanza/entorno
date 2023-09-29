@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entorno virtual 🌐 🖲️📲</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene> 
+    
+      <a-entity environment="preset: tron; grid: 1x1; gridColor: #FFE603"></a-entity>
+    
+ <!-- ASSETS - PRECARGAR -->     
+ <a-assets>  
+<!-- Imágenes -->
+      <!-- Imagenes cambios planta alta -->
+        <img id="1" src="./cambios planta alta/1.jpg">
+        <img id="2" src="./cambios planta alta/2.jpg">
+        <img id="3" src="./cambios planta alta/3.jpeg">
+        <img id="4" src=",/cambios planta alta/4.jpeg">
+        <img id="5" src="./cambios planta alta/5.jpeg">
+        <img id="6" src="./cambios planta alta/6.JPG">
+        <img id="7" src="./cambios planta alta/7.JPG">
+        <img id="8" src="./cambios planta alta/8.JPG">
+
+      <!-- Imágenes Texto de sala- fichas -->
+      <img id="arealudica" src="./fichas/arealudicatexto.png">
+      <img id="calosani" src="./fichas/calosani.png">
+      <img id="grupos" src="./fichas/grupos.png">
+      <img id="reimaginan" src="./fichas/reimaginan.png">
+      <img id="trazando" src="./fichas/trazando.png">
+
+      <!-- Imagenes área ludica -->
+       <img id="blanca" src="./arealudica/blanca.jpg">
+       <img id="uv" src="./arealudica/uv.jpg">
+
+       <img id="somos" src="./dibujos-crudo/1.jpeg">
+       <img id="dibu" src="./dibujos-crudo/dibu.jpeg">
+       <img id="irap" src="./dibujos-crudo/irap.jpeg">
+       <img id="nice" src="./dibujos-crudo/nice.jpeg">
+       <img id="texto" src="./dibujos-crudo/texto.jpeg">
+
+       <img id="enmsi" src="./recorridos/1.1.jpeg">
+       <img id="uiwfoto" src="./recorridos/uiw.jpg">
+
+       <!-- Imágenes usted -->
+       <img id="usted" src="./usted/17.jpg">
+       <img id="ustedu" src="./usted/9.jpg">
+       <img id="ustede" src="./usted/10.jpg">
+
+      <!-- Imágenes reimaginando -->
+      <img id="pers" src="./reimaginar/pers.jpg">
+      <img id="sala" src="./reimaginar/sala.jpg">
+      <img id="senor" src="./reimaginar/señor.jpg">
+
+
+       <!-- Imagenes pintarrón -->
+       <img id="pintarron" src="./pintarron.jpg">
+       <img id="pizarronn" src="./pizarron.jpeg">
+
+       <!-- Imagenes calosa niños -->
+       <img id="ninos" src="ninos.png">
+       <img id="mapass" src="./calninos/Plantabaja.png">
+       <img id="alta" src="./calninos/alta.jpg">
+       <img id="circulo" src="./calninos/circulo.jpg">
+       <img id="estandarte" src="./calninos/estandarte.jpg">
+       <img id="foto" src="./calninos/foto.jpg">
+       <img id="lentes" src="./calninos/lentes.jpg">
+       <img id="plantaal" src="./calninos/Plantaalta.png">
+       <img id="plas" src="./calninos/plas.jpg">
+       <img id="plastt" src="./calninos/plasti.jpg">
+       <img id="plasttt" src="./calninos/plastilina.jpg">
+       <img id="sala" src="./calninos/sala.jpg">
+
+
+<!-- Videos -->
+        <video id="calninos" autoplay loop="true" src="./calninos/calninos1.mp4"></video>
+        <video id="pintura" autoplay loop="true" src="./calninos/pintura.mp4"></video>
+       
+        <video id="uno" autoplay loop="true" src="./inauguracion/uno.mp4"></video>
+        <video id="dos" autoplay loop="true" src="./inauguracion/dos.mp4"></video>
+        <video id="seis" autoplay loop="true" src="./reimaginar/seis.mp4"></video>
+
+
+        <video id="pinta" autoplay loop="true" src="./arealudica/pintarron.mp4"></video>
+
+        <video id="trazar" autoplay loop="true" src="./usted/trazar.mp4"></video>
+        <video id="pareja" autoplay loop="true" src="./parejavisit.mp4"></video>
+     
+        <video id="gifuv" autoplay loop="true" src="./arealudica/luzuv.mp4"></video>
+        <video id="iuwvidu" autoplay loop="true" src="./recorridos/uiw.mp4"></video>
+        <video id="iuwvid" autoplay loop="true" src="./recorridos/uiwvisita.mp4"></video>
+
+
+<!-- objetos 3D -->
+        <a-asset-item id="cel" src="./3d/cel"></a-asset-item>
+        <a-asset-item id="map" src="./modelos3d/jejej.gltf"></a-asset-item>
+        <a-asset-item id="mapmarker" src="./modelos3d/mapmarker.gltf"></a-asset-item>
+        <!-- <a-asset-item id="globo" src="./modelos3d/globo.gltf"></a-asset-item> -->
+        <a-asset-item id="ion" src="./modelos3d/ionthing.gltf"></a-asset-item>
+        <a-asset-item id="tesoro" src="./3d/baul.gltf"></a-asset-item>
+
+</a-assets>
+
+<!-- ESCENA -->
+
+    <!-- animacion de la camara -->
+        <a-camera position="5 3 -7"> </a-camera>
+     
+    <!-- Imagenes -->
+       
+         <!-- Imagenes planta alta -->
+              <a-image src="#1" scale="20 12 0" rotation="-300 180 0" position="25.017 40 9.677" ></a-image>
+              <a-image src="#2" scale="20 12 0" rotation="-300 180 0" position="46.017 39 10.677" ></a-image>
+              <a-image src="#3" scale="20 12 0" rotation="-300 180 0" position="64.017 37 11.677" ></a-image>
+              <a-image src="#5" scale="20 12 0" rotation="-300 180 0" position="82.017 35 13.677" ></a-image>
+              <a-image src="#6" scale="20 12 0" rotation="-300 180 0" position="102.017 33 14.677" ></a-image>
+              <a-image src="#7" scale="20 12 0" rotation="-300 180 0" position="120.017 30 15.677" ></a-image>
+              <a-image src="#8" scale="20 12 0" rotation="-300 180 0" position="140.017 28 16.677" ></a-image>
+   
+         <!-- Imágenes Texto de sala- fichas -->
+            <a-image src="#arealudica" scale="4 6 0.00001" rotation="0 47 0" position="-24 4.85989 -10.13179"></a-image>
+            <a-image src="#calosani" scale="4 6 0.00001" rotation="0 150 0" position="-21.16056 6.06855 29.82987" material="" geometry=""></a-image>         
+            <a-image src="#grupos" scale="4 6 0.00001" rotation="0 -140 0" position="4.15452 4.08978 -9.18108" material="" geometry=""></a-image>
+            <a-image src="#trazando" scale="4 6 0.00001" rotation="0 317.75 0" position="-28.77887 3.90184 -19.49195" material="" geometry=""></a-image>
+            <a-image src="#reimaginan" scale="4 6 0.00001" rotation="0 140 0" position="26.68345 5.30998 4.01732" material="" geometry=""></a-image>
+            
+         <!-- Imágenes área lúdica -->
+              <a-image src="#uv" scale="15 5 0" rotation="0 0 0" position="-80.38 4.831 -24.71"></a-image>
+              <a-image src="#blanca" scale="15 5 0.00001" rotation="" position="-78.4229 4.831 -10.24759" material="" geometry=""></a-image>
+
+              <a-image src="#somos" scale="1.5 1.5 1.5" rotation="0 43.43 -90" position="-17.35895 5.0403 -17.19964" material="" geometry=""></a-image>
+              <a-image src="#dibu" scale="1.5 1.5 1.5" rotation="0 43.43 -90" position="-15.95196 5.07459 -18.59059" material="" geometry=""></a-image>
+              <a-image src="#irap" scale="1.5 1.5 1.5" rotation="0 43.43 0.18" position="-14.48403 5.09557 -19.90231" material="" geometry=""></a-image>
+              <a-image src="#nice" scale="1.5 1.5 1.5" rotation="0 43.43 270" position="-12.98705 5.12882 -21.29326" material="" geometry=""></a-image>
+              <a-image src="#texto" scale="1.5 1.5 1.5" rotation="0 43.43 270" position="-11.56808 5.10604 -22.64713" material="" geometry=""></a-image>
+
+              <a-image src="#enmsi" scale="4 3 1.5" rotation="0 220 0" position="-0.88614 3.59182 -4.84503" material="" geometry=""></a-image>
+              <a-image src="#uiwfoto" scale="4 3 1.5" rotation="0 220 0" position="-4.66526 3.5 -2.05446" material="" geometry=""></a-image>
+              
+              <!-- Imágenes usted -->
+              <a-image src="#usted" scale="9.53 6 0.00001" rotation="0 136.31 0" position="-25.89309 3.80046 -18.66441" material="" geometry=""></a-image>
+              <a-image src="#ustedu" scale="8 5 0.00001" rotation="0 136.31 0" position="-16.95987 4.11729 -26.89901" material="" geometry=""></a-image>
+              <a-image src="#ustede" scale="8 5 0.00001" rotation="0 136 0" position="-21.5216 4.10931 -23.03353" material="" geometry=""></a-image>
+
+               <!-- Imágenes reimaginar-->
+               <a-image src="#sala" scale="8 5 0.00001" rotation="0 226.62 0" position="28.85137 11.48084 15.3779" material="" geometry=""></a-image>
+               <a-image src="#senor" scale="8 5 0.00001" rotation="0 -131.48 0" position="29.71977 17.69258 15.40001" material="" geometry=""></a-image>
+               <a-image src="#pers" scale="8 5.69 0.00001" rotation="0 -40 0" position="4.91443 7.04931 21.4762" material="" geometry=""></a-image>
+
+              <!-- Imágenes pintarron -->
+              <a-image src="#pintarron" scale="10 6 0.00001" rotation="0 137.29 0" position="-15.80371 3.92692 -9.03892" material="" geometry=""></a-image>
+       
+         <!-- Imágenes calosa niños -->
+              <a-image src="#ninos" scale="80 60 10" rotation="90 -180 0" position="-51.35585 1 54.20897" ></a-image>
+              <a-image src="#mapass" scale="90 55 1" rotation="90 360 179.13" position="-51.356 58.73 54.209" material="fog: false" geometry="circle" material="fog:false"></a-image>
+
+              <img id="ninos" src="ninos.png">
+              <img id="mapass" src="./calninos/Plantabaja.png">
+<!--              
+              <img id="alta" src="./calninos/alta.jpg">
+              <img id="circulo" src="./calninos/circulo.jpg">
+              <img id="estandarte" src="./calninos/estandarte.jpg">
+              <img id="foto" src="./calninos/foto.jpg">
+              <img id="lentes" src="./calninos/lentes.jpg">
+              <img id="plantaal" src="./calninos/Plantaalta.png">
+              <img id="plas" src="./calninos/plas.jpg">
+              <img id="plastt" src="./calninos/plasti.jpg">
+              <img id="plasttt" src="./calninos/plastilina.jpg">
+              <img id="sala" src="./calninos/sala.jpg"> -->
+
+
+              <!-- <a-image src="#alta" scale="11 8 0" rotation="0 -180 0" position="-50.35585 1 54.20897" ></a-image> -->
+              <!-- <a-image src="#circulo" scale="11 8 0" rotation="0 -180 0" position="-49.35585 1 54.20897" ></a-image> -->
+              <!-- <a-image src="#estandarte" scale="11 8 0" rotation="0 -180 0" position="-48.35585 1 54.20897" ></a-image> -->
+              <!-- <a-image src="#foto" scale="11 8 0" rotation="0 -180 0" position="-44.35585 1 54.20897" ></a-image> -->
+              <!-- <a-image src="#lentes" scale="11 8 0" rotation="0 -180 0" position="-40.35585 1 54.20897" ></a-image>
+              <a-image src="#plantaal" scale="11 8 0" rotation="0 -180 0" position="-38.35585 1 54.20897" ></a-image>
+              <a-image src="#plas" scale="11 8 0" rotation="0 -180 0" position="-36.35585 1 54.20897" ></a-image>
+              <a-image src="#plastt" scale="11 8 0" rotation="0 -180 0" position="-33.35585 1 54.20897" ></a-image>
+              <a-image src="#plasttt" scale="11 8 0" rotation="0 -180 0" position="-30.35585 1 54.20897" ></a-image>
+              <a-image src="#sala" scale="11 8 0" rotation="0 -180 0" position="-28.35585 1 54.20897" ></a-image> -->
+
+              <!-- <a-image src="#foto" scale="20 14 3" rotation="0 -180 0" position="6.55374 30.73363 74.62493" material="fog: false" geometry=""></a-image> -->
+              <!-- <a-image src="#alta" scale="20 8 3" rotation="0 -180 0" position="-40.30956 8.52049 43.14669" material="fog: false" geometry=""></a-image> -->
+              <!-- <a-image src="#circulo" scale="20 8 3" rotation="0 -180 0" position="-2.22672 24.48977 42.9805" material="fog: false" geometry=""></a-image> -->
+              <!-- <a-image src="#estandarte" scale="20 8 3" rotation="0 -180 0" position="-38.38154 14.04571 46.03331" material="fog: false" geometry=""></a-image> -->
+              <a-image src="#estandarte" scale="11 9 1" rotation="0 -180 0" position="-27.17135 26.35124 87.8676" material="fog: false" geometry=""></a-image>
+              <a-image src="#alta" scale="11 9 1" rotation="0 -180 0" position="-26.94645 15.47405 86.44921" material="fog: false" geometry=""></a-image>
+              <!-- <a-image src="#foto" scale="10 14 1" rotation="0 119.99999999999999 0" position="-90.51103 24.67768 49.07808" material="fog: false" geometry=""></a-image> -->
+              <a-image src="#circulo" scale="10 7.4 1" rotation="0 20 0" position="-7.61095 9.84461 53.90972" material="fog: false" geometry=""></a-image>
+              <!-- <a-image src="#plastt" scale="11 8 0.00001" rotation="17.15 161.83 0" position="-68.8293 13.73254 45.69531" material="fog: false" geometry=""></a-image> -->
+
+
+              <a-image src="#lentes" scale="11 8 0" rotation="0 -180 0" position="-20.35585 5 -54.20897" ></a-image>
+              <a-image src="#plantaal" scale="11 8 0" rotation="0 -180 0" position="-38.35585 6 -50.20897" ></a-image>
+              <!-- <a-image src="#plas" scale="11 8 0" rotation="0 -180 0" position="-36.35585 6 5.20897" ></a-image> -->
+              <!-- <a-image src="#plastt" scale="11 8 0" rotation="0 -180 0" position="-33.35585 4 6.20897" ></a-image> -->
+              <!-- <a-image src="#plasttt" scale="11 8 0" rotation="0 -180 0" position="-30.35585 5 -54.20897" ></a-image> -->
+              <a-image src="#sala" scale="11 8 0" rotation="0 -180 0" position="-28.35585 6 -54.20897" ></a-image>
+              <a-image src="#plas" scale="30 20 0" rotation="0 -78.9 0" position="-95.51103 24.67768 49.07808" material="fog: false" geometry=""></a-image>
+              <a-image src="#plastt" scale="11 8 0.00001" rotation="17.15 161.83 0" position="-39.1355 13.73254 45.69531" material="fog: false" geometry=""></a-image>      
+              <a-image src="#foto" scale="13 11 1" rotation="0 119.99999999999999 0" position="-67.56649 5.493 30.27691" material="fog: false" geometry=""></a-image>
+     
+              <!-- Videos-->
+          
+            <a-video src="#calninos" width="16" height="9" scale="2 5 1" position="-54.22308 26.88157 83.43686"></a-video>
+            <a-video src="#pintura" width="16" height="9" scale="6 8 5"  rotation="90 -180 0" position="-51.35585 1.5 54.20897"></a-video>
+
+            <a-video src="#uno" width="16" height="9" scale="0.2 0.80 0.00001" rotation="360 0 0" position="21.997 10.03 9.587"></a-video>
+            <!-- <a-video src="#dos" width="16" height="9" scale="0.20 0.8 0.00001" rotation="360 0 0" position="24.56559 12.39945 17.00453"></a-video> -->
+            <!-- <a-video src="#seis" width="16" height="9" scale="0.5 1.21 0.00001" rotation="-360 44.1 0" position="17.18742 15.92871 23.73874" material="" geometry=""></a-video> -->
+            <!-- <a-video src="#dos" width="16" height="9" scale="0.5 1.21 0.00001" rotation="-360 44.1 0" position="19.18742 15.92871 23.73874" material="" geometry=""></a-video> -->
+            <a-video src="#seis" width="16" height="9" scale="0.5 1.91 0.00001" rotation="-360 44.1 0" position="22.92086 14.95189 22.28259" material="fog: false" geometry=""></a-video>
+            <a-video src="#dos" width="16" height="9" scale="0.5 1.91 0.00001" rotation="0 -40 0" position="10.81344 15.01788 24.90261" material="fog: false" geometry=""></a-video>
+
+            <a-video src="#pinta" width="16" height="9" scale="0.26 0.8 0.00001" rotation="0 -43 0" position="-18.98272 5.2355 -9.76574" material="" geometry=""></a-video>
+
+            <a-video src="#gifuv" width="16" height="9" scale="" rotation="90 48.00000000000001 0" position="-7.4393 9.02873 -14.18556" material="fog: false" geometry=""></a-video>
+            <a-video src="#iuwvid" width="16" height="9" scale="0.5 1.5 1" rotation="0 317.15 0" position="5.18274 7.08688 -15.0601" material="fog: false" geometry=""></a-video>
+            <a-video src="#iuwvidu" width="16" height="9" scale="0.4 1.14 1" rotation="0 318.42 0" position="-0.56612 5.4686 -20.17936" material="fog: false" geometry=""></a-video>
+
+            <a-video src="#trazar" width="16" height="9" scale="6 6 6" rotation="0 159 0" position="-22.07204 8.34749 -41.15591" material="fog: false" geometry="primitive: sphere"></a-video>
+            <a-video src="#pareja" width="16" height="9" scale="6 6 6" rotation="0 159 0" position="-2.07204 8.34749 -41.15591" material="fog: false" geometry="primitive: sphere"></a-video>
+
+
+    <!-- objetos 3D -->
+             <a-entity gltf-model="#cel" 
+             scale="50 47 10" 
+             rotation="360 0 0" 
+             position="22.017 10-802 9.677"></a-entity>
+
+             <!-- <a-entity gltf-model="#cel" 
+             scale="50 47 10" 
+             rotation="360 0 0" 
+             position="24.56559 12.39945 16.88453"></a-entity> -->
+
+             <a-entity gltf-model="#map" 
+             scale="40 23.630 45" 
+             rotation="60 0 0" 
+             position="27.118 10.647 -27.71" ></a-entity>
+
+             <a-entity gltf-model="#mapmarker" 
+             scale="32 23.630 30" 
+             rotation="0 0 0" 
+             position="-10.118 18.647 15.71" 
+             animation="property: scale; to: 15 7 10; property: position; to: 2 3 -20;loop: true; dur: 22000"></a-entity>
+
+             <!-- <a-entity gltf-model="#globo" 
+             scale="1 1 1" 
+             rotation="0 0 0" 
+             position="-80.118 1 -27.71" ></a-entity> -->
+
+             <a-entity gltf-model="#ion" 
+             scale="15 15 15" 
+             rotation="0 0 0" 
+             position="-54.34.118 12 49.2" ></a-entity>
+
+             <a-entity gltf-model="#tesoro" 
+             scale=".05 .03 .03" 
+             rotation="30 100 0" 
+             position="-86.41 -13.615 18.512" 
+             animation="property: position; to: -86.41 10 18.512; dir: alternate; dur: 6000; easing: linear; loop: true"
+             material="fog:false"></a-entity>
+
+         
+             <!-- luz  #7559ff-->
+             <a-light type="point" color="white" position="23.85642 40.62088 -6.95104" scale="1 1 1" rotation="0 0 0"></a-light> 
+<!-- #7559ff #96d945 -->
+
+             <!-- <a-light type="point" color="#a10aff" position="-86.41 15.615 18.512" scale="15 15 15"></a-light> -->
+             <!-- <a-light type="point" color="#white" position="-55.63162 15.615 22.28115" scale="15 15 15" rotation="0 0 -180"></a-light> -->
+             <a-light type="point" color="#white" position="-69.24759 2.00676 6.86781" scale="0.00001 15 15" rotation="29.999999999999996 90 180" light="type: directional; color: #96d945; angle: -90; intensity: 4.5" ></a-light>
+
+    <!-- muros galería -->
+        <!-- azul -->
+        <a-box position="-1 0.5 -3" scale="27 15 1" rotation="0 45 0" color="blue" material="opacity:.7"></a-box>
+        <a-box position="-17.25642 2.41187 -18.1248" scale="27 15 1" rotation="0 45 0" color="blue" material="opacity: 0.7" geometry="" visible=""></a-box>
+        <a-box position="0.03936 6.47406 -20.77515" scale="27 15 1" rotation="0 137 0" color="blue" material="opacity: 0.7" geometry="" visible=""></a-box>
+        <a-box position="-20.87553 0.42429 -13.00083" scale="27 15 1" rotation="0 137 0" color="blue" material="opacity: 0.7" geometry="" visible=""></a-box>
+
+         <!-- black muro alto-->
+        <a-box position="29.78363 4.39187 7.79569" scale="20 40 1" rotation="0 139 0" color="#242423" material="opacity: 0.7; fog: false"></a-box>
+        <a-box position="8.47367 7.39687 7.99896" scale="27 40 1" rotation="0 45 0" color="#242423" material="opacity: 0.7; fog: false"></a-box>
+        <a-box position="7.388 7.45844 25.07" scale="23.5 40 1" rotation="0 139 0" color="#242423" ></a-box>
+        <a-box position="25.76829 7.58502 22.65545" scale="27 40 1" rotation="0 45 0" color="#242423" material="fog: false" ></a-box>
+
+
+
+
+    </a-scene>
+  </body>
+  
+</html>
+

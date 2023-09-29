@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Treasure Chest
+* source:	https://sketchfab.com/3d-models/low-poly-treasure-chest-b9bbd551360443ae920f189d241d4734
+* author:	dmitry.porotnikov (https://sketchfab.com/dmitry.porotnikov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Treasure Chest" (https://sketchfab.com/3d-models/low-poly-treasure-chest-b9bbd551360443ae920f189d241d4734) by dmitry.porotnikov (https://sketchfab.com/dmitry.porotnikov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
